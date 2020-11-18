@@ -1,9 +1,5 @@
 
-.container{
-    width: 100%;
-    max-width: 1170px;
-    margin: 0 auto;
-}
+
 .header{
     height: 100%;
     width: 100%;
@@ -38,53 +34,3 @@
     opacity: 1; 
 }
 
-.intro{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 750px;
-    background:#31344e url(../images/intro-bg.jpg) center no-repeat ;
-    padding-top: 100px;
-}
-.intro__inner{
-    width: 100%;
-    max-width: 970px;
-    margin: 0 auto;
-    text-align: center;
-}
-.intro__title{
-    margin: 0 0 30px;
-    font-family: 'Open Sans' sans-serif;
-    font-size: 65px;
-    line-height: 1.1;
-    color: #fff;
-    font-weight: 700;
-    text-transform: uppercase;
-    
-}
-.intro__subtitle{
-    margin-bottom: 60px;
-    font-size: 22px;
-    color: #fff;
-    line-height: 1.5;
-    font-weight: 400;
-}
-.btn{
-    display: inline-block;
-    vertical-align: top;
-    font-size: 13px;
-    padding: 14px 40px;
-    border-radius: 2px;
-    font-family: inherit;
-    color: #fff;
-    font-weight: 600;
-    text-transform: uppercase;
-    text-decoration: none;
-    transition: background .1s linear;
-}
-.btn--red{
-    background-color: #e84545;
-}
-.btn--red:hover{
-    background-color: #dd3434;
-}
